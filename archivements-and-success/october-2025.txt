@@ -1,0 +1,28 @@
+WEEK ONE 
+New Things Learnt
+i. How to creat m learning road map
+ii. accessing my skills set
+iii. mapping my journey for  nex year
+
+WEEK TWO
+i. version control navigation and commands for SE(FE and BE)
+ii. basic git commands
+iii. Git and GitHub
+
+WEEK THREE
+i. learnt about inntroduction to Javascript
+ii. Javascript control structure and basic funtions
+
+WEEK FOUR
+1. Assimilated on the a particular genral knwledge that stroke my mind
+i. reframging my mind for Tech Entreprenuership
+ii. Designing Delibrate practice sesion
+    (structured, purposful, feedback, reflection, focused repeatition, effortful, uniqueness)
+2. Delibrate Practice Frameworks
+    i. identify core skilss
+    ii. practice rouine
+    iii. difference beween delibrate and regular practice
+    iv. Reframing failure as a feedback
+    v. The PLAN_framework (paulse, laern, analyse and adjust, navigate forward)
+    vi. Growth mindset Equation (Faillure + reflection + adjustment = growth)
+    vii Building resilience 
