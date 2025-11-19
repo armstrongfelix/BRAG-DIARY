@@ -1,0 +1,3 @@
+WEEK1
+learnt how to asign spaces to flex items (eg flex:2)
+learnt to use (over-flow: auto) to make flex container scrollabble.
