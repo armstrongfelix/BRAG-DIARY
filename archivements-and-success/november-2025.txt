@@ -1,3 +1,7 @@
 WEEK1
 learnt how to asign spaces to flex items (eg flex:2)
 learnt to use (over-flow: auto) to make flex container scrollabble.
+understood the major difference between background-image properties:
+    i. background-size: cover (used when the background-image is smaller than the conatinaer, it is used to stretch it.)
+            &
+    ii. background-size: contain (used when the background-size is larger than than the container, it resizes it the size of the container)
