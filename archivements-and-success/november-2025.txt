@@ -1,7 +1,43 @@
 WEEK1
-learnt how to asign spaces to flex items (eg flex:2)
-learnt to use (over-flow: auto) to make flex container scrollabble.
-understood the major difference between background-image properties:
+1. learnt how to asign spaces to flex items (eg flex:2)
+2. learnt to use (over-flow: auto) to make flex container scrollabble.
+3. understood the major difference between background-image properties:
     i. background-size: cover (used when the background-image is smaller than the conatinaer, it is used to stretch it.)
             &
     ii. background-size: contain (used when the background-size is larger than than the container, it resizes it the background-image size to fit the container)
+
+4. unddrstood th e concept attribute selector in css
+        Attribute Selectors
+        The attribute selectors allow you to target an attribute found on an HTML element.
+
+        1. Links with "facebook" anywhere in the URL
+                a[href*="facebook"] {
+                color: #3C5A99;
+                }
+        
+        2. Internal links, beginning with "#"
+                a[href^="#"] {
+                background-color: gold;
+                }
+        
+        3. Links that end in ".org"
+                a[href$=".org"] {
+                color: red;
+                }
+
+5. Position
+        Positioning in CSS requires to use different CSS properties that allow you to position elements in your HTML webpage.
+
+        /* not 100% browser support yet, but could be user in some cases */
+        .component {
+        position: sticky;
+        top: 0;
+        }
+
+animation:
+    definition in words {
+        A CSS animation is a sequence of visual changes applied to an element over a specified duration. 
+        It allows for smooth transitions between different states of an element, such as changes in color, size, position, or opacity.
+        CSS animations are defined using keyframes, which specify the styles at various points during the animation.
+        The animation is controlled by properties such as duration, timing function, delay, iteration count, and direction.
+    }
