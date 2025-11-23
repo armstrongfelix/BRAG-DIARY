@@ -41,3 +41,13 @@ animation:
         CSS animations are defined using keyframes, which specify the styles at various points during the animation.
         The animation is controlled by properties such as duration, timing function, delay, iteration count, and direction.
     }
+
+WEEK 2
+1. understood the difference between the following css selectors
+        i. parent  any-descendant{
+                proper: value;
+                }
+
+        ii. parent > Direct-child {
+                proper:value
+                }
