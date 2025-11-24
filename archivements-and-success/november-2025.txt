@@ -61,3 +61,12 @@ WEEK 2
                 let A = [2,7,8,5,5,5]
                 let copy = [...A]
                 this is used when you want to make a copy of an array data.
+3.      What Is a Shallow Copy of an Array, and What Are Some Ways to Create  These Copies?
+        i.      concate method 
+                const copyArray = [].concat(originalArray);
+
+        ii.     slice method 
+                const copyArray = originalArray.slice();
+
+        iii.    spread Operator 
+                const copyArray = [...originalArray];
