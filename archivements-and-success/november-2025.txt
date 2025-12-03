@@ -70,3 +70,69 @@ WEEK 2
 
         iii.    spread Operator 
                 const copyArray = [...originalArray];
+
+4.     How to Check If an Object Has a Property?
+        i.      Objectname.hasOwnProperty("Propertyname")
+        ii.     Propertyname in Objectname
+
+5.      i.      the difference between premitive and non premitived data 
+                types 
+        ii.     creating objects 
+        iii.    accessing objects and nested objects  (brackets notations dot (.) notations)
+
+6.      he async and defer attributes in HTML script elements play a crucial 
+        role in how JavaScript files are loaded and executed in web pages.
+        i. By adding the async attribute to a script tag, the browser will continue parsing the HTML while the script is being downloaded. Once the script is fully downloaded, the browser will pause HTML parsing, execute the script, and then resume parsing the HTML.
+        ii. The defer attribute is similar to async attribute. However, defer scripts are not executed immediately after they're downloaded. Instead, they wait until the HTML parsing is complete. Furthermore, defer scripts execute in the order they appear in the HTML code.
+        
+        NOTE:   use async for scripts where the order of execution doesn't matter, and use defer when you need to ensure that scripts run in the correct order.
+7.      FETCH: The Fetch API allows web apps to make network requests,       
+        typically to retrieve or send data to the server.
+        By default, the Fetch API uses the GET method to retrieve data.
+
+        difference Fetch API methods
+        i.      GET: By default used to make network requests of retrieve     
+                data from from a server.
+        ii.     POST:  used for sending and creating new data or record to a 
+                server
+        iii.    PUT:    used for updating existing record/data on a server.
+        iv.     DELETE: is used to delete a resource from the server.
+
+8.      JavaScript promise creation, .then(parameter) .catch(parameter), JavaScript promise chainning
+9.      async/await 
+        example:        async function fetchUserData() {
+                                try {
+                                        let response = await fetch(`https://api.example.com/users`);
+                                        let userData = await response.json();
+                                        console.log(userData);
+                                        } 
+                                        
+                                catch (error) {
+                                        console.log("Error fetching user data:", error);
+                                                }
+                                        }
+10.     JavaScript Engin: The JavaScript engine has the ability to read, understand, and execute your 
+        code. It works like a converter that takes your code, turns it into instructions that the computer can understand and work accordingly.
+        JavaScript Engin step:
+                i.      parse
+                ii.     compile
+                iii.    execute
+11.     The JavaScript runtime is the environment in which your 
+        JavaScript code is executed. It includes 
+        the JavaScript engine (like V8 in Chrome or SpiderMonkey in Firefox), which processes and executes the code, as well as additional features provided by the environment (such as a web browser or Node.js, which you will learn more about in future lessons).
+        the runtime provides extra tools that allow JavaScript to interact with things outside of the language itself, like the DOM (for web pages) or the Fetch API (for making network requests)
+
+12.     API call header:
+         Headers
+        Extra context: Headers are like luggage tags on your request or response. They carry extra information, including:
+        Content-Type: Specifies the type of data (e.g., ‘text/html’, ‘application/json’).
+        Authorization: Provides credentials to access protected resources.
+        Cache-Control: Gives instructions on how to cache content (for performance).
+        And many more!.
+
+
+        WEEK 3
+
+        1.      understood how to creat and call CSS variable.
+        2.      understood how to implement CSS media queries on custom CSS file.
+        3.      

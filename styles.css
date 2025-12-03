@@ -1,7 +1,0 @@
-animation:
-    definition in words {
-        A CSS animation is a sequence of visual changes applied to an element over a specified duration. 
-        It allows for smooth transitions between different states of an element, such as changes in color, size, position, or opacity.
-        CSS animations are defined using keyframes, which specify the styles at various points during the animation.
-        The animation is controlled by properties such as duration, timing function, delay, iteration count, and direction.
-    }
