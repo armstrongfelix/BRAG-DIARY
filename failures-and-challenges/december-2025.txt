@@ -1,0 +1,4 @@
+Week one
+1.  failed  my alx assignment on data fetching and APIs
+2.  findng it very difficult to understand the local storage and session storage concept in JS
+3.

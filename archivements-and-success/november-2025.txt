@@ -136,3 +136,17 @@ WEEK 2
         1.      understood how to creat and call CSS variable.
         2.      understood how to implement CSS media queries on custom CSS file.
         3.      how to import a downloaded font to my project
+
+
+        DECEMBER
+
+        WEEK1
+
+        1. introduction to react
+        2. react components
+        3. understoodthe node-modules
+        4. understood the package.json in react project
+        5. how to create react components
+        6. importing and exporting react components
+        7. REACT states and props
+        8. how to pass props from paent to child.

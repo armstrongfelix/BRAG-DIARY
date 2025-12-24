@@ -1,0 +1,74 @@
+    WEEK ONE
+1.  understood how to toggle class using 
+    element.classList.toggle("class_Name")
+
+2.  used element.classList.toggle("class_Name") to toggle close and 
+    hide an element
+
+3.  how to add one or muliple classLists to an element using 
+    element.classList.add("class_Name")
+    element.classList.add("class_Name1", "class_Name2", "class_Name3", .....)
+
+4.  How to remove a class list from and element using JS
+    element.classList.remove("class_Name")
+    
+5.  How to use .show(), .showModal(), .close() to show modal dialogs
+    element.show() non strict modal dialogs
+    element.showModal() very strict modal dialogs
+    element.close() close modal dialogs
+
+
+    WEEK TWO
+
+1. understood the reason why we can't next a double qoute inside a double
+2. understood the reason why we can't next a single qoute inside a single
+3. understood the reason why we can't next a backtick  inside a backtick
+    NOTE:
+    if qoute requires nesting, nest single qoute inside double qoute
+    or nest double qoute inside single qoute.
+    
+4.  calliing evenlistener on html_Element on an index.html is better with 
+    element.addEventListener() method.
+    while calliing evenlistener on html element inside Javascrip code is beter with 
+    inline evenlistener e.g onclick, onhover, onfocus, keydown etc.
+
+5.  Scope and StorageIn the context of localStorage.getItem("data"), you are 
+    grabbing a "snapshot" of what is currently in the browser's memory.
+
+    let: Useful for loops or counters ($i = 0, i = 1...$).
+    const: The standard for 90% of modern JavaScript variables, especially when fetching data or importing modules.
+    
+    Note: Even if the content inside an array or object changes (like adding a new task), the variable itself still points to the same memory location. Therefore, const is still the correct choice for arrays and objects in most scenarios.
+
+6.  learnt and understood localStorage
+
+            const myTaskArr = [
+        { task: "Walk the Dog", date: "22-04-2022" },
+        { task: "Read some books", date: "02-11-2023" },
+        { task: "Watch football", date: "10-08-2021" },
+        ];
+
+        localStorage.setItem("data", JSON.stringify(myTaskArr));
+
+        localStorage.removeItem("data");
+
+        const getTaskArr = localStorage.getItem("data")
+        console.log(getTaskArr)
+
+        const getTaskArrObj = JSON.parse(localStorage.getItem("data"));
+        console.log(getTaskArrObj);
+
+7. loading data from localStorage 
+    To get your UI to reflect your tasks, you need to bridge the gap between the string stored in your browser's memory and the array your JavaScript code needs to work with.
+
+    Here is how you can set up that logic:
+
+    JavaScript
+
+    const taskData = JSON.parse(localStorage.getItem("data")) || [];
+    Why this works:
+    localStorage.getItem("data"): This goes into the browser's storage to find the item labeled "data".
+
+    JSON.parse(...): Local storage only stores strings. If you saved an array, it currently looks like text (e.g., "[{"title":"Task 1"}]"). JSON.parse turns that text back into a real JavaScript array of objects.
+
+    The OR operator (||): This is the "fallback" logic. If localStorage is empty (it returns null), the code will ignore the first part and assign [] (an empty array) to taskData instead. This prevents your app from crashing on the first time a user opens it.
