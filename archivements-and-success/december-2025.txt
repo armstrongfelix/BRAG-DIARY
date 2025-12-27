@@ -102,3 +102,28 @@
         In previous lessons you learned that querySelectorAll returns a NodeList, which is an array-like 
         structure, and one of the methods that a NodeList has is forEach(), and it works the same way as the forEach that exists on arrays.
         
+
+    3.  understood
+        USING SWITCH CASE PUT ALL THE SWITCH CASES THAT SHERA's  THE SAME BLOCK OF CODE IF TRUE,
+        THEN FOLLOWED BY THE BLOCK OF CODE
+            e.g
+                function cardCounter(card) {
+                switch (card) {
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                    case 6:
+                        count++;
+                        break;
+                    case 10:
+                    case "J":
+                    case "Q":
+                    case "K":
+                    case "A":
+                        count--;
+                        break;
+                }
+                let decision = count > 0 ? "Bet" : "Hold";
+                return `${count} ${decision}`;
+                }
