@@ -17,7 +17,6 @@
     element.showModal() very strict modal dialogs
     element.close() close modal dialogs
 
-
     WEEK TWO
 
 1. understood the reason why we can't next a double qoute inside a double
@@ -72,3 +71,34 @@
     JSON.parse(...): Local storage only stores strings. If you saved an array, it currently looks like text (e.g., "[{"title":"Task 1"}]"). JSON.parse turns that text back into a real JavaScript array of objects.
 
     The OR operator (||): This is the "fallback" logic. If localStorage is empty (it returns null), the code will ignore the first part and assign [] (an empty array) to taskData instead. This prevents your app from crashing on the first time a user opens it.
+
+    
+    
+    WEEK 3.
+
+    1.  understood that query Selector can be used by a parent element to query any of it's child element.
+        e.g
+            let HTML.
+
+        <div class="btn-container">
+        <button id="happy-btn" class="emoji-btn" aria-label="Happy face emoji">
+        <span role="img" aria-hidden="true">😊</span>
+        <span class="count">0/10</span>
+        </button>
+        </div>
+
+            Let JavaScript
+
+        const happyBtn = document.querySelector("#happy-btn");
+
+        happyBtn.addEventListener("click", () => {
+            const countEl = happyBtn.querySelector(".count");
+        console.log(countEl.textContent);
+        })
+        here we use button element to query the span element by calling ther ID',
+        instead of using document.querySelector()
+
+    2.  NOTED:
+        In previous lessons you learned that querySelectorAll returns a NodeList, which is an array-like 
+        structure, and one of the methods that a NodeList has is forEach(), and it works the same way as the forEach that exists on arrays.
+        
